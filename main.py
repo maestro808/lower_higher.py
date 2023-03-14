@@ -1,18 +1,6 @@
 from game_data import data
 import random
 
-logo = """
-    __  ___       __             
-   / / / (_)___ _/ /_  ___  _____
-  / /_/ / / __ `/ __ \/ _ \/ ___/
- / __  / / /_/ / / / /  __/ /    
-/_/ ///_/\__, /_/ /_/\___/_/     
-   / /  /____/_      _____  _____
-  / /   / __ \ | /| / / _ \/ ___/
- / /___/ /_/ / |/ |/ /  __/ /    
-/_____/\____/|__/|__/\___/_/     
-"""
-
 vs = """
  _    __    
 | |  / /____
@@ -74,7 +62,6 @@ while True:
         data_b = random_selection()
         followers_b = data_b['follower_count']
         print(f"Compare A: {data_a['name']}, {data_a['description']}, {data_a['country']}")
-        print(followers_a,followers_b)
         print(vs)
         print(f"Compare B: {data_b['name']}, {data_b['description']}, {data_b['country']}")
     else:
