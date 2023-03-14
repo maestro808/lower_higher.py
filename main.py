@@ -68,12 +68,3 @@ while True:
     else:
         print(f"Sorry, that's wrong. Final score: {score}")
         break
-
-
-
-
-
-# print(f"Compare A: {random_data_a['name']}, {random_data_a['description']}, {random_data_a['country']}")
-# print (vs)
-# print(f"Compare B: {random_data_b['name']}, {random_data_b['description']}, {random_data_b['country']}")
-#if player_selection == "A" and compare_data(data_a,data_b) == "A" or player_selection == "B" and compare_data(data_a,data_b) == "B"
